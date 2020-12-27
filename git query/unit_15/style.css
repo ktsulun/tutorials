@@ -1,0 +1,23 @@
+.text-center {
+    text-align: center;
+}
+
+#cities {
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+.weather-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.city-name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.degrees {
+    font-size: 25px;
+}

@@ -1,0 +1,32 @@
+body{
+    padding: 20px;
+}
+
+img{
+border-radius: 30px;
+  }
+
+  .full-view{
+      position: relative;
+  }
+  #main-image img{
+      width: 100%;
+  }
+
+  .images{
+      display: flex;
+      justify-content: center;
+
+  }
+
+  .images img{
+    width: calc(100%/4);
+  }
+.buttonPlusOrMinus{
+    display: flex;
+position: absolute;
+bottom: 0;
+left: 50%;
+transform: translate(0,-50%);
+
+}
